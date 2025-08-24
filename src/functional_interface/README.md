@@ -1,11 +1,8 @@
 # Functional Interface
 
-Qualquer interface com um SAM (Single Abstract Method) é uma interface funcional e sua implementação pode ser tratada
-como
-expressões lambda.
+Qualquer interface com um SAM (Single Abstract Method) é uma interface funcional e sua implementação pode ser tratada como expressões lambda.
 
-- `Consumer<T>`: Representa uma operação que aceita um argumento do tipo T e não retorna nenhum resultado. É utilizada
-  principalmente para realizar ações ou efeitos colaterais nos elementos do Stream sem modificar ou retornar um valor.
+- `Consumer<T>`: Representa uma operação que aceita um argumento do tipo T e não retorna nenhum resultado. É utilizada principalmente para realizar ações ou efeitos colaterais nos elementos do Stream sem modificar ou retornar um valor.
 
 ```java
 public class ConsumerExample {
@@ -50,8 +47,7 @@ public class ConsumerExample {
 }
 ```
 
-- `Supplier<T>`: Representa uma operação que não aceita nenhum argumento e retorna um resultado do tipo T. É comumente
-  usada para criar ou fornecer novos objetos de um determinado tipo.
+- `Supplier<T>`: Representa uma operação que não aceita nenhum argumento e retorna um resultado do tipo T. É comumente usada para criar ou fornecer novos objetos de um determinado tipo.
 
 ```java
 public class SupplierExample {
